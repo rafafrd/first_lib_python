@@ -1,11 +1,11 @@
-def somar(a, b):
-    """
-    Esta função retorna a soma de dois números.
-    """
-    return a + b
+from setuptools import setup, find_packages
 
-def subtrair(a, b):
-    """
-    Esta função retorna a subtração de dois números.
-    """
-    return a - b
+setup(
+    name='minha_biblioteca',
+    version='0.1.0',
+    description='Uma biblioteca de exemplo para cálculos básicos.',
+    author='Seu Nome',
+    author_email='seu.email@exemplo.com',
+    packages=find_packages(),
+    install_requires=[],
+)
