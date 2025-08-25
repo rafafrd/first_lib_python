@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: minha_biblioteca
+Version: 0.1.0
+Summary: Uma biblioteca de exemplo para cálculos básicos.
+Author: Seu Nome
+Author-email: seu.email@exemplo.com
+Dynamic: author
+Dynamic: author-email
+Dynamic: summary
