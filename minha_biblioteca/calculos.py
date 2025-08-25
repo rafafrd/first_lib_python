@@ -67,3 +67,10 @@ def minimo(lista):
     if not lista:
         return None
     return min(lista)
+def modulo(a, b):
+    """
+    Esta função retorna o módulo (resto da divisão) de dois números.
+    """
+    if b == 0:
+        return None
+    return a % b
