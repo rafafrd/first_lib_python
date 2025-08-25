@@ -74,3 +74,6 @@ def modulo(a, b):
     if b == 0:
         return None
     return a % b
+
+def soma_com_args(*lores):
+  return sum(lores)
